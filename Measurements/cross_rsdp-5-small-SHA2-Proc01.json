@@ -1,0 +1,27 @@
+{
+  "info": {
+    "algorithm": "cross_rsdp-5-small-SHA2",
+    "memoryTracing": false,
+    "processor": "01"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 30167799,
+      "reps": 88,
+      "meanTimeUs": 342815
+    },
+    {
+      "operation": "Sign",
+      "totalTimeUs": 262068296,
+      "reps": 3,
+      "meanTimeUs": 87356098
+    },
+    {
+      "operation": "Verify",
+      "totalTimeUs": 59179372,
+      "reps": 3,
+      "meanTimeUs": 19726457
+    }
+  ]
+}

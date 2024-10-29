@@ -1,0 +1,27 @@
+{
+  "info": {
+    "algorithm": "dilithium3-AES-R",
+    "memoryTracing": false,
+    "processor": "10"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 30913557,
+      "reps": 29,
+      "meanTimeUs": 1065984
+    },
+    {
+      "operation": "Sign",
+      "totalTimeUs": 32106181,
+      "reps": 5,
+      "meanTimeUs": 6421236
+    },
+    {
+      "operation": "Verify",
+      "totalTimeUs": 30754768,
+      "reps": 27,
+      "meanTimeUs": 1139065
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "info": {
+    "algorithm": "dilithium5-AES",
+    "memoryTracing": true,
+    "processor": "11"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 30348517,
+      "reps": 23,
+      "meanTimeUs": 1319500,
+      "stack": 101276,
+      "heap": 0
+    },
+    {
+      "operation": "Sign",
+      "totalTimeUs": 32330000,
+      "reps": 11,
+      "meanTimeUs": 2939090,
+      "stack": 126180,
+      "heap": 0
+    },
+    {
+      "operation": "Verify",
+      "totalTimeUs": 30886696,
+      "reps": 24,
+      "meanTimeUs": 1286945,
+      "stack": 96392,
+      "heap": 0
+    }
+  ]
+}

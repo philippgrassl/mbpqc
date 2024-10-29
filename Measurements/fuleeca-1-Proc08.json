@@ -1,0 +1,27 @@
+{
+  "info": {
+    "algorithm": "fuleeca-1",
+    "memoryTracing": false,
+    "processor": "08"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 101653087,
+      "reps": 3,
+      "meanTimeUs": 33884362
+    },
+    {
+      "operation": "Sign",
+      "totalTimeUs": 1183038433,
+      "reps": 3,
+      "meanTimeUs": 394346144
+    },
+    {
+      "operation": "Verify",
+      "totalTimeUs": 30199243,
+      "reps": 43,
+      "meanTimeUs": 702307
+    }
+  ]
+}

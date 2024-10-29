@@ -1,0 +1,27 @@
+{
+  "info": {
+    "algorithm": "mirith_hypercube_Va_fast",
+    "memoryTracing": false,
+    "processor": "09"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 30880914,
+      "reps": 35,
+      "meanTimeUs": 882311
+    },
+    {
+      "operation": "Sign",
+      "totalTimeUs": 920299472,
+      "reps": 3,
+      "meanTimeUs": 306766490
+    },
+    {
+      "operation": "Verification",
+      "totalTimeUs": 812940452,
+      "reps": 3,
+      "meanTimeUs": 270980150
+    }
+  ]
+}

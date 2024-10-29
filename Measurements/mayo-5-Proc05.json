@@ -1,0 +1,45 @@
+{
+  "info": {
+    "algorithm": "mayo-5",
+    "memoryTracing": false,
+    "processor": "05"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 34796266,
+      "reps": 3,
+      "meanTimeUs": 11598755
+    },
+    {
+      "operation": "ExpandSK",
+      "totalTimeUs": 41605093,
+      "reps": 3,
+      "meanTimeUs": 13868364
+    },
+    {
+      "operation": "ExpandPK",
+      "totalTimeUs": 33540822,
+      "reps": 4,
+      "meanTimeUs": 8385205
+    },
+    {
+      "operation": "Sign",
+      "totalTimeUs": 57391720,
+      "reps": 3,
+      "meanTimeUs": 19130573
+    },
+    {
+      "operation": "Open",
+      "totalTimeUs": 32051362,
+      "reps": 3,
+      "meanTimeUs": 10683787
+    },
+    {
+      "operation": "Verify",
+      "totalTimeUs": 32168073,
+      "reps": 3,
+      "meanTimeUs": 10722691
+    }
+  ]
+}

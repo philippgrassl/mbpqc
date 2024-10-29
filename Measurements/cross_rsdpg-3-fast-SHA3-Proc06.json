@@ -1,0 +1,27 @@
+{
+  "info": {
+    "algorithm": "cross_rsdpg-3-fast-SHA3",
+    "memoryTracing": false,
+    "processor": "06"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 30021565,
+      "reps": 480,
+      "meanTimeUs": 62544
+    },
+    {
+      "operation": "Sign",
+      "totalTimeUs": 30259047,
+      "reps": 6,
+      "meanTimeUs": 5043174
+    },
+    {
+      "operation": "Verify",
+      "totalTimeUs": 32578045,
+      "reps": 10,
+      "meanTimeUs": 3257804
+    }
+  ]
+}

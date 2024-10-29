@@ -1,0 +1,27 @@
+{
+  "info": {
+    "algorithm": "mirith_hypercube_IIIa_shorter",
+    "memoryTracing": false,
+    "processor": "04"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 30368403,
+      "reps": 72,
+      "meanTimeUs": 421783
+    },
+    {
+      "operation": "Sign",
+      "totalTimeUs": 4371965487,
+      "reps": 3,
+      "meanTimeUs": 1457321829
+    },
+    {
+      "operation": "Verification",
+      "totalTimeUs": 4332246888,
+      "reps": 3,
+      "meanTimeUs": 1444082296
+    }
+  ]
+}

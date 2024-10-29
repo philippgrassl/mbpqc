@@ -1,0 +1,27 @@
+{
+  "info": {
+    "algorithm": "mirith_Ib_fast",
+    "memoryTracing": false,
+    "processor": "01"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 30021962,
+      "reps": 81,
+      "meanTimeUs": 370641
+    },
+    {
+      "operation": "Sign",
+      "totalTimeUs": 354018617,
+      "reps": 3,
+      "meanTimeUs": 118006205
+    },
+    {
+      "operation": "Verification",
+      "totalTimeUs": 330968101,
+      "reps": 3,
+      "meanTimeUs": 110322700
+    }
+  ]
+}

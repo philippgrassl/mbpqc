@@ -1,0 +1,27 @@
+{
+  "info": {
+    "algorithm": "kyber1024",
+    "memoryTracing": false,
+    "processor": "10"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 30087311,
+      "reps": 154,
+      "meanTimeUs": 195372
+    },
+    {
+      "operation": "Encaps",
+      "totalTimeUs": 30024698,
+      "reps": 122,
+      "meanTimeUs": 246104
+    },
+    {
+      "operation": "Decaps",
+      "totalTimeUs": 30146277,
+      "reps": 114,
+      "meanTimeUs": 264441
+    }
+  ]
+}

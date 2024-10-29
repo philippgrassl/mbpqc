@@ -1,0 +1,27 @@
+{
+  "info": {
+    "algorithm": "dilithium5",
+    "memoryTracing": false,
+    "processor": "11"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 30094847,
+      "reps": 86,
+      "meanTimeUs": 349940
+    },
+    {
+      "operation": "Sign",
+      "totalTimeUs": 30533405,
+      "reps": 46,
+      "meanTimeUs": 663769
+    },
+    {
+      "operation": "Verify",
+      "totalTimeUs": 30245373,
+      "reps": 82,
+      "meanTimeUs": 368846
+    }
+  ]
+}

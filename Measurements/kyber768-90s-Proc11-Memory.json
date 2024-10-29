@@ -1,0 +1,33 @@
+{
+  "info": {
+    "algorithm": "kyber768-90s",
+    "memoryTracing": true,
+    "processor": "11"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 30008965,
+      "reps": 284,
+      "meanTimeUs": 105665,
+      "stack": 12852,
+      "heap": 0
+    },
+    {
+      "operation": "Encaps",
+      "totalTimeUs": 30001644,
+      "reps": 218,
+      "meanTimeUs": 137622,
+      "stack": 16008,
+      "heap": 0
+    },
+    {
+      "operation": "Decaps",
+      "totalTimeUs": 30033869,
+      "reps": 185,
+      "meanTimeUs": 162345,
+      "stack": 17108,
+      "heap": 0
+    }
+  ]
+}

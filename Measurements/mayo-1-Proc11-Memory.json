@@ -1,0 +1,57 @@
+{
+  "info": {
+    "algorithm": "mayo-1",
+    "memoryTracing": true,
+    "processor": "11"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 30538212,
+      "reps": 22,
+      "meanTimeUs": 1388100,
+      "stack": 597744,
+      "heap": 960
+    },
+    {
+      "operation": "ExpandSK",
+      "totalTimeUs": 31348525,
+      "reps": 20,
+      "meanTimeUs": 1567426,
+      "stack": 1508332,
+      "heap": 704
+    },
+    {
+      "operation": "ExpandPK",
+      "totalTimeUs": 30848313,
+      "reps": 29,
+      "meanTimeUs": 1063734,
+      "stack": 2928,
+      "heap": 704
+    },
+    {
+      "operation": "Sign",
+      "totalTimeUs": 32277130,
+      "reps": 14,
+      "meanTimeUs": 2305509,
+      "stack": 2852840,
+      "heap": 960
+    },
+    {
+      "operation": "Open",
+      "totalTimeUs": 31199813,
+      "reps": 22,
+      "meanTimeUs": 1418173,
+      "stack": 2323760,
+      "heap": 704
+    },
+    {
+      "operation": "Verify",
+      "totalTimeUs": 31195599,
+      "reps": 22,
+      "meanTimeUs": 1417981,
+      "stack": 2323704,
+      "heap": 704
+    }
+  ]
+}

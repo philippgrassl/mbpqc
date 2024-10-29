@@ -1,0 +1,27 @@
+{
+  "info": {
+    "algorithm": "mirith_IIIb_short",
+    "memoryTracing": false,
+    "processor": "05"
+  },
+  "measurements": [
+    {
+      "operation": "Keypair",
+      "totalTimeUs": 30439937,
+      "reps": 59,
+      "meanTimeUs": 515931
+    },
+    {
+      "operation": "Sign",
+      "totalTimeUs": 4884806823,
+      "reps": 3,
+      "meanTimeUs": 1628268941
+    },
+    {
+      "operation": "Verification",
+      "totalTimeUs": 4862041548,
+      "reps": 3,
+      "meanTimeUs": 1620680516
+    }
+  ]
+}
